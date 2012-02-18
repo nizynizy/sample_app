@@ -16,10 +16,11 @@ group :assets do
   gem 'uglifier', '>= 1.0.3'
 end
 group :development do
-gem 'rspec-rails', '2.0.1'
+gem 'rspec-rails', '2.5.0'
 end
 group :test do
-gem 'rspec', '2.0.1'
+gem 'rspec', '2.5.0'
+gem 'spork', '0.8.4'
 gem 'webrat', '0.7.1'
 end
 gem 'jquery-rails'
